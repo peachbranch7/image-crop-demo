@@ -1,9 +1,13 @@
 import React from 'react'
-import { ReactImageCropDemo } from './ReactImageCropDemo'
+import { ReactEasyCropDemo } from './components/ReactEasyCropDemo'
+import { ReactImageCropDemo } from './components/ReactImageCropDemo'
 
 export const App:React.FC = () =>  {
  
   return (
-   <ReactImageCropDemo  />
+    <>
+      <ReactImageCropDemo  />
+      <ReactEasyCropDemo  />
+    </>
   )
 }
