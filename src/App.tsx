@@ -6,7 +6,7 @@ export const App:React.FC = () =>  {
  
   return (
     <>
-      <ReactImageCropDemo  />
+      {/* <ReactImageCropDemo  /> */}
       <ReactEasyCropDemo  />
     </>
   )
